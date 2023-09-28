@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://smarttrend.tech/` + encodeURI(path as string)
+					`https://giveaway-roan.vercel.app/` + encodeURI(path as string)
 				}`,
 			},
 		};
